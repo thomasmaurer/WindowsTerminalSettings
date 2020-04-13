@@ -1,0 +1,831 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "globals" : 
+    {
+        "alwaysShowTabs" : true,
+        "copyOnSelect" : true,
+        "defaultProfile" : "{4982827c-1b18-4102-982a-2367eb062c23}",
+        "initialCols" : 100,
+        "initialRows" : 30,
+        "useAcrylic": true,
+        "keybindings" : 
+        [
+            {
+                "command" : "splitHorizontal",
+                "keys" : ["ctrl+shift+-"]
+            },
+            {
+                "command" : "splitVertical",
+                "keys" : ["ctrl+shift+|"]
+            },
+            {
+                "command" : {"action": "splitPane", "split": "vertical", "profile": "Microk8s Samurai"},
+                "keys": ["alt+shift+1"]
+            },
+            {
+                "command" : {"action": "splitPane", "split": "horizontal", "profile": "Microk8s Shinobi"},
+                "keys": ["alt+shift+2"]
+            },
+            {
+                "command" : {"action": "splitPane", "split": "horizontal", "profile": "Ubuntu"},
+                "keys": ["alt+shift+3"]
+            },
+            {
+                "command" : {"action": "splitPane", "split": "vertical", "profile": "manjaro"},
+                "keys": ["alt+shift+4"]
+            },
+            {
+                "command" : {"action": "newTab", "profile": "fedoraremix"},
+                "keys": ["ctrl+alt+f"]
+            },
+            {
+                "command" : "moveFocusUp",
+                "keys" : ["ctrl+alt+up"]
+            },
+            {
+                "command" : "moveFocusDown",
+                "keys" : ["ctrl+alt+down"]
+            },
+            {
+                "command" : "moveFocusLeft",
+                "keys" : ["ctrl+alt+left"]
+            },
+            {
+                "command" : "moveFocusRight",
+                "keys" : ["ctrl+alt+right"]
+            },
+            {
+                "command" : "resizePaneUp",
+                "keys" : ["shift+alt+up"]
+            },
+            {
+                "command" : "resizePaneDown",
+                "keys" : ["shift+alt+down"]
+            },
+            {
+                "command" : "resizePaneLeft",
+                "keys" : ["shift+alt+left"]
+            },
+            {
+                "command" : "resizePaneRight",
+                "keys" : ["shift+alt+right"]
+            },
+            {
+                "command" : "closePane",
+                "keys" : 
+                [
+                    "ctrl+shift+w"
+                ]
+            },
+            {
+                "command" : "copy",
+                "keys" : 
+                [
+                    "ctrl+shift+c"
+                ]
+            },
+            {
+                "command" : "duplicateTab",
+                "keys" : 
+                [
+                    "ctrl+shift+d"
+                ]
+            },
+            {
+                "command" : "newTab",
+                "keys" : 
+                [
+                    "ctrl+shift+t"
+                ]
+            },
+            {
+                "command" : "newTabProfile0",
+                "keys" : 
+                [
+                    "ctrl+shift+1"
+                ]
+            },
+            {
+                "command" : "newTabProfile1",
+                "keys" : 
+                [
+                    "ctrl+shift+2"
+                ]
+            },
+            {
+                "command" : "newTabProfile2",
+                "keys" : 
+                [
+                    "ctrl+shift+3"
+                ]
+            },
+            {
+                "command" : "newTabProfile3",
+                "keys" : 
+                [
+                    "ctrl+shift+4"
+                ]
+            },
+            {
+                "command" : "newTabProfile4",
+                "keys" : 
+                [
+                    "ctrl+shift+5"
+                ]
+            },
+            {
+                "command" : "newTabProfile5",
+                "keys" : 
+                [
+                    "ctrl+shift+6"
+                ]
+            },
+            {
+                "command" : "newTabProfile6",
+                "keys" : 
+                [
+                    "ctrl+shift+7"
+                ]
+            },
+            {
+                "command" : "newTabProfile7",
+                "keys" : 
+                [
+                    "ctrl+shift+8"
+                ]
+            },
+            {
+                "command" : "newTabProfile8",
+                "keys" : 
+                [
+                    "ctrl+shift+9"
+                ]
+            },
+            {
+                "command" : "nextTab",
+                "keys" : 
+                [
+                    "ctrl+tab"
+                ]
+            },
+            {
+                "command" : "openNewTabDropdown",
+                "keys" : 
+                [
+                    "ctrl+shift+space"
+                ]
+            },
+            {
+                "command" : "openSettings",
+                "keys" : 
+                [
+                    "ctrl+,"
+                ]
+            },
+            {
+                "command" : "paste",
+                "keys" : 
+                [
+                    "ctrl+shift+v"
+                ]
+            },
+            {
+                "command" : "prevTab",
+                "keys" : 
+                [
+                    "ctrl+shift+tab"
+                ]
+            },
+            {
+                "command" : "scrollDown",
+                "keys" : 
+                [
+                    "ctrl+shift+down"
+                ]
+            },
+            {
+                "command" : "scrollDownPage",
+                "keys" : 
+                [
+                    "ctrl+shift+pgdn"
+                ]
+            },
+            {
+                "command" : "scrollUp",
+                "keys" : 
+                [
+                    "ctrl+shift+up"
+                ]
+            },
+            {
+                "command" : "scrollUpPage",
+                "keys" : 
+                [
+                    "ctrl+shift+pgup"
+                ]
+            },
+            {
+                "command" : "switchToTab0",
+                "keys" : 
+                [
+                    "ctrl+alt+1"
+                ]
+            },
+            {
+                "command" : "switchToTab1",
+                "keys" : 
+                [
+                    "ctrl+alt+2"
+                ]
+            },
+            {
+                "command" : "switchToTab2",
+                "keys" : 
+                [
+                    "ctrl+alt+3"
+                ]
+            },
+            {
+                "command" : "switchToTab3",
+                "keys" : 
+                [
+                    "ctrl+alt+4"
+                ]
+            },
+            {
+                "command" : "switchToTab4",
+                "keys" : 
+                [
+                    "ctrl+alt+5"
+                ]
+            },
+            {
+                "command" : "switchToTab5",
+                "keys" : 
+                [
+                    "ctrl+alt+6"
+                ]
+            },
+            {
+                "command" : "switchToTab6",
+                "keys" : 
+                [
+                    "ctrl+alt+7"
+                ]
+            },
+            {
+                "command" : "switchToTab7",
+                "keys" : 
+                [
+                    "ctrl+alt+8"
+                ]
+            },
+            {
+                "command" : "switchToTab8",
+                "keys" : 
+                [
+                    "ctrl+alt+9"
+                ]
+            }
+        ],
+        "requestedTheme" : "system",
+        "showTabsInTitlebar" : true,
+        "showTerminalTitleInTitlebar" : true,
+        "wordDelimiters" : " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502"
+    },
+    "profiles" : 
+    [
+        {
+            "acrylicOpacity" : 0.8,
+            "background" : "#000000",
+            "closeOnExit" : true,
+            "colorScheme" : "Vintage",
+            "commandline" : "powershell.exe",
+            "cursorColor" : "#000000",
+            "cursorShape" : "filledBox",
+            "fontFace" : "Cascadia Mono PL",
+            "fontSize" : 13,
+            "guid" : "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "historySize" : 9001,
+            "icon" : "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+            "name" : "Windows PowerShell",
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : false,
+            "experimental.retroTerminalEffect": false,
+            "backgroundImage": "d:\\msterm\\backgrounds\\insiders5years.png",
+            "backgroundImageOpacity": 0,
+            "backgroundImageAlignment": "topRight",
+            "backgroundImageStretchMode": "uniformToFill"
+        },
+        {
+            "acrylicOpacity" : 0.75,
+            "closeOnExit" : true,
+            "colorScheme" : "Campbell",
+            "commandline" : "cmd.exe",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "bar",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize" : 10,
+            "guid" : "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "historySize" : 9001,
+            "icon" : "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+            "name" : "cmd",
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : true
+        },
+        {
+            "acrylicOpacity" : 0.59999999999999998,
+            "closeOnExit" : true,
+            "colorScheme" : "Vintage",
+            "commandline" : "Azure",
+            "connectionType" : "{d9fcfdfa-a479-412c-83b7-c5640e61cd62}",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "bar",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize" : 10,
+            "guid" : "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "historySize" : 9001,
+            "icon" : "ms-appx:///ProfileIcons/{b453ae62-4e3d-5e58-b989-0a998ec441b8}.png",
+            "name" : "Azure Cloud Shell",
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : true
+        },
+        {
+            "acrylicOpacity" : 0.5,
+            "closeOnExit" : true,
+            "colorScheme" : "UbuntuLegit",
+            "commandline" : "wsl.exe -d WLinux",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "bar",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize" : 10,
+            "guid" : "{7f586916-8357-53d4-bb2b-ca96f639898a}",
+            "historySize" : 9001,
+            "icon" : "D:\\msterm\\icons\\pengwin.ico",
+            "name" : "Pengwin",
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "\\\\wsl$\\wlinux\\home\\nunix",
+            "useAcrylic" : false,
+            "experimental.retroTerminalEffect": false,
+            "antialiasingMode": "cleartype",
+            "suppressApplicationTitle": true,
+            "tabTitle": "Pengwin"
+        },
+        {
+            "acrylicOpacity" : 0.5,
+            "closeOnExit" : true,
+            "colorScheme" : "UbuntuLegit",
+            "commandline" : "hvc ssh -p2221 mk8s@mk8s",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "emptyBox",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize" : 13,
+            "guid" : "{7c489a2b-e4f3-424e-ada5-1e714036b2a3}",
+            "historySize" : 9001,
+            "icon" : "D:\\msterm\\icons\\ubuntu.ico",
+            "name" : "Microk8s Shogun",
+            "suppressApplicationTitle": true,
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : false,
+            "experimental.retroTerminalEffect": false,
+            "backgroundImage": "D:\\msterm\\backgrounds\\focal-fossa.jpeg",
+            "backgroundImageStretchMode": "uniformToFill",
+            "backgroundImageAlignment": "center",
+            "backgroundImageOpacity": 0.5
+        },
+        {
+            "acrylicOpacity" : 0.5,
+            "closeOnExit" : true,
+            "colorScheme" : "UbuntuLegit",
+            "commandline" : "hvc ssh -p2222 mk8s@mk8s",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "filledBox",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize" : 13,
+            "guid" : "{a2fc4e16-6e0f-4adc-b80d-fe72826fc094}",
+            "historySize" : 9001,
+            "icon" : "D:\\msterm\\icons\\MicroK8s.png",
+            "name" : "Microk8s Samurai",
+            "suppressApplicationTitle": true,
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : false,
+            "experimental.retroTerminalEffect": false,
+            "backgroundImage": "D:\\wslconf\\microk8s.png",
+            "backgroundImageStretchMode": "uniformToFill",
+            "backgroundImageAlignment": "right",
+            "backgroundImageOpacity": 0.1
+        },
+        {
+            "acrylicOpacity" : 0.5,
+            "closeOnExit" : true,
+            "colorScheme" : "UbuntuLegit",
+            "commandline" : "hvc ssh -p2223 mk8s@mk8s",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "vintage",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize" : 13,
+            "guid" : "{6c20c810-aafb-4ab7-86b6-c50ddf8ae586}",
+            "historySize" : 9001,
+            "icon" : "D:\\msterm\\icons\\wsl-boat.jpg",
+            "name" : "Microk8s Shinobi",
+            "suppressApplicationTitle": true,
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : false,
+            "experimental.retroTerminalEffect": false,
+            "backgroundImage": "D:\\wslconf\\wsl-boat.jpg",
+            "backgroundImageStretchMode": "uniform",
+            "backgroundImageAlignment": "right",
+            "backgroundImageOpacity": 0.3
+        },
+        {
+            "acrylicOpacity" : 0.8,
+            "closeOnExit" : true,
+            "colorScheme" : "UbuntuLegit",
+            "commandline" : "ubuntu.exe",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "emptyBox",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize" : 13,
+            "guid" : "{4982827c-1b18-4102-982a-2367eb062c23}",
+            "historySize" : 9001,
+            "icon" : "D:\\msterm\\icons\\ubuntu.ico",
+            "name" : "Ubuntu",
+            "experimental.retroTerminalEffect": false,
+            "suppressApplicationTitle": true,
+            "padding" : "0, 0, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "\\\\wsl$\\ubuntu\\home\\nunix",
+            "useAcrylic" : true,
+            "backgroundImage": "https://particule.io/images/thumbnails/k3s.png",
+            "backgroundImageAlignment": "center",
+            "backgroundImageStretchMode": "uniformToFill",
+            "backgroundImageOpacity": 0.2
+        },
+        {
+            "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+            "hidden": false,
+            "name": "Ubuntu-18.04",
+            "colorScheme" : "Dracula",
+            "source": "Windows.Terminal.Wsl",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "icon" : "D:\\msterm\\icons\\ubuntu.ico",
+            "fontSize": 13,
+            "backgroundImage": "https://www.iomtech.club/assets/img/docker-and-k8s.png",
+            "backgroundImageStretchMode": "fill",
+            "backgroundImageOpacity": 0.2
+        },
+        {
+            "guid": "{ece9aa19-68f6-5c2f-8d4a-720d0fe69c4a}",
+            "hidden": false,
+            "name": "arch",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{f271f22d-ee4f-58cc-85b6-493b36d45ca1}",
+            "hidden": false,
+            "name": "amazon",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{96933987-e7b7-55a2-a499-f9d06dcf0997}",
+            "hidden": false,
+            "name": "alpine",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{9e8a3f08-a0f3-5ca1-bd10-3b9a3a45c4eb}",
+            "hidden": false,
+            "name": "funtoo",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{1e96ad32-231b-5d6c-ab03-7d6975e4b98c}",
+            "hidden": false,
+            "name": "meshery",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{ccb33f8f-ca27-5bfa-834f-b5098ecdd270}",
+            "hidden": false,
+            "name": "endeavouros",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{b6d0bd4d-dc12-5220-8db6-caf44970fca2}",
+            "hidden": false,
+            "name": "kiss",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{d07f5a0d-f0e5-5e15-8b09-4d39d8ccc8cd}",
+            "hidden": false,
+            "name": "omlx",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{570fcb8d-792c-5ac7-ab1f-5cfb2cdfdb99}",
+            "hidden": true,
+            "name": "docker-desktop",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{dacca76f-f467-571f-97d0-39f62dba92b9}",
+            "hidden": false,
+            "name": "bionic",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{d8afdc0e-a636-5b68-89dd-50a9d0b54349}",
+            "hidden": true,
+            "name": "docker-desktop-data",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{d3f31bee-5823-5ed8-8e04-f31ed54f2cd9}",
+            "hidden": false,
+            "name": "fedoraremix",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{5eb71502-54e0-5a49-b96a-81e9b9bfee7c}",
+            "hidden": false,
+            "name": "mk8s",
+            "source": "Windows.Terminal.Wsl",
+            "backgroundImage": "D:\\msterm\\backgrounds\\meshery-terminal.png",
+            "backgroundImageAlignment": "topRight",
+            "backgroundImageStretchMode": "none"
+        },
+        {
+            "guid": "{b68b374b-de8d-5bd5-a5b5-c7c250b83f92}",
+            "hidden": false,
+            "name": "mesheryblog",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{858dbf60-4e23-5086-91f0-a5fc4869d716}",
+            "hidden": false,
+            "name": "microk8s",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{493b421a-d038-5737-8e5d-01c0e38af82a}",
+            "hidden": false,
+            "name": "clear",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{d35dcf6a-3a52-5105-88b5-65b0fc08bbf6}",
+            "hidden": false,
+            "name": "manjaro",
+            "colorScheme" : "Dracula",
+            "source": "Windows.Terminal.Wsl",
+            "fontFace" : "CascadiaCode Nerd Font",
+            "fontSize": 13,
+            "backgroundImage": "https://www.iomtech.club/assets/img/docker-and-k8s.png",
+            "backgroundImageStretchMode": "fill",
+            "backgroundImageOpacity": 0.2
+        },
+        {
+            "guid": "{8e29bb55-2c18-5537-b3af-e0251e139b74}",
+            "hidden": false,
+            "name": "stargate",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "hidden": false,
+            "name": "Ubuntu",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{3792e857-0e70-57de-8c55-0d37a6914a2c}",
+            "hidden": false,
+            "name": "rh",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{8f854d2e-aa20-5fdc-aef1-5b25e5636f9e}",
+            "hidden": false,
+            "name": "rh8",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{81c937ec-1461-545b-9e3b-a1123a519dee}",
+            "hidden": false,
+            "name": "cleard",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{4dc2feeb-a2c1-5d8c-9912-6b1894e4f944}",
+            "hidden": false,
+            "name": "wslconf",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{d50230db-0891-52f3-80d3-cf4313cbf223}",
+            "hidden": false,
+            "name": "wslzfs",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{a446f815-15f7-5461-ab8c-82712cf5819a}",
+            "hidden": false,
+            "name": "arco",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{2a9fe853-4ca4-53a0-94b9-c3313b70ba29}",
+            "hidden": false,
+            "name": "fleet",
+            "fontSize": 13,
+            "source": "Windows.Terminal.Wsl",
+            "backgroundImage": "https://66.media.tumblr.com/1dd5d5a7c5acd44aeaaffee7d21e491b/e17f4841503ef060-a4/s500x750/b0970adfc02b8f7036ffa256088a39b03921125e.gifv",
+            "backgroundImageOpacity": 0.2,
+            "backgroundImageStretchMode": "uniformToFill"
+        }
+    ],
+    "schemes" : 
+    [
+        {
+            "background" : "#0C0C0C",
+            "black" : "#0C0C0C",
+            "blue" : "#0037DA",
+            "brightBlack" : "#767676",
+            "brightBlue" : "#3B78FF",
+            "brightCyan" : "#61D6D6",
+            "brightGreen" : "#16C60C",
+            "brightPurple" : "#B4009E",
+            "brightRed" : "#E74856",
+            "brightWhite" : "#F2F2F2",
+            "brightYellow" : "#F9F1A5",
+            "cyan" : "#3A96DD",
+            "foreground" : "#CCCCCC",
+            "green" : "#13A10E",
+            "name" : "Campbell",
+            "purple" : "#881798",
+            "red" : "#C50F1F",
+            "white" : "#CCCCCC",
+            "yellow" : "#C19C00"
+        },
+        {
+            "background" : "#000000",
+            "black" : "#000000",
+            "blue" : "#000080",
+            "brightBlack" : "#808080",
+            "brightBlue" : "#0000FF",
+            "brightCyan" : "#00FFFF",
+            "brightGreen" : "#00FF00",
+            "brightPurple" : "#FF00FF",
+            "brightRed" : "#FF0000",
+            "brightWhite" : "#FFFFFF",
+            "brightYellow" : "#FFFF00",
+            "cyan" : "#008080",
+            "foreground" : "#C0C0C0",
+            "green" : "#008000",
+            "name" : "Vintage",
+            "purple" : "#800080",
+            "red" : "#800000",
+            "white" : "#C0C0C0",
+            "yellow" : "#808000"
+        },
+        {
+            "background" : "#282C34",
+            "black" : "#282C34",
+            "blue" : "#61AFEF",
+            "brightBlack" : "#5A6374",
+            "brightBlue" : "#61AFEF",
+            "brightCyan" : "#56B6C2",
+            "brightGreen" : "#98C379",
+            "brightPurple" : "#C678DD",
+            "brightRed" : "#E06C75",
+            "brightWhite" : "#DCDFE4",
+            "brightYellow" : "#E5C07B",
+            "cyan" : "#56B6C2",
+            "foreground" : "#DCDFE4",
+            "green" : "#98C379",
+            "name" : "One Half Dark",
+            "purple" : "#C678DD",
+            "red" : "#E06C75",
+            "white" : "#DCDFE4",
+            "yellow" : "#E5C07B"
+        },
+        {
+            "background" : "#FAFAFA",
+            "black" : "#383A42",
+            "blue" : "#0184BC",
+            "brightBlack" : "#4F525D",
+            "brightBlue" : "#61AFEF",
+            "brightCyan" : "#56B5C1",
+            "brightGreen" : "#98C379",
+            "brightPurple" : "#C577DD",
+            "brightRed" : "#DF6C75",
+            "brightWhite" : "#FFFFFF",
+            "brightYellow" : "#E4C07A",
+            "cyan" : "#0997B3",
+            "foreground" : "#383A42",
+            "green" : "#50A14F",
+            "name" : "One Half Light",
+            "purple" : "#A626A4",
+            "red" : "#E45649",
+            "white" : "#FAFAFA",
+            "yellow" : "#C18301"
+        },
+        {
+            "background" : "#002B36",
+            "black" : "#073642",
+            "blue" : "#268BD2",
+            "brightBlack" : "#002B36",
+            "brightBlue" : "#839496",
+            "brightCyan" : "#93A1A1",
+            "brightGreen" : "#586E75",
+            "brightPurple" : "#6C71C4",
+            "brightRed" : "#CB4B16",
+            "brightWhite" : "#FDF6E3",
+            "brightYellow" : "#657B83",
+            "cyan" : "#2AA198",
+            "foreground" : "#839496",
+            "green" : "#859900",
+            "name" : "Solarized Dark",
+            "purple" : "#D33682",
+            "red" : "#DC322F",
+            "white" : "#EEE8D5",
+            "yellow" : "#B58900"
+        },
+        {
+            "background" : "#FDF6E3",
+            "black" : "#073642",
+            "blue" : "#268BD2",
+            "brightBlack" : "#002B36",
+            "brightBlue" : "#839496",
+            "brightCyan" : "#93A1A1",
+            "brightGreen" : "#586E75",
+            "brightPurple" : "#6C71C4",
+            "brightRed" : "#CB4B16",
+            "brightWhite" : "#FDF6E3",
+            "brightYellow" : "#657B83",
+            "cyan" : "#2AA198",
+            "foreground" : "#657B83",
+            "green" : "#859900",
+            "name" : "Solarized Light",
+            "purple" : "#D33682",
+            "red" : "#DC322F",
+            "white" : "#EEE8D5",
+            "yellow" : "#B58900"
+        },
+        {
+            "background" : "#282A36",
+            "black" : "#21222C",
+            "blue" : "#BD93F9",
+            "brightBlack" : "#6272A4",
+            "brightBlue" : "#D6ACFF",
+            "brightCyan" : "#A4FFFF",
+            "brightGreen" : "#69FF94",
+            "brightPurple" : "#FF92DF",
+            "brightRed" : "#FF6E6E",
+            "brightWhite" : "#FFFFFF",
+            "brightYellow" : "#FFFFA5",
+            "cyan" : "#8BE9FD",
+            "foreground" : "#F8F8F2",
+            "green" : "#50FA7B",
+            "name" : "Dracula",
+            "purple" : "#FF79C6",
+            "red" : "#FF5555",
+            "white" : "#F8F8F2",
+            "yellow" : "#F1FA8C"
+        },
+        {
+            "background":  "#2C001E",
+            "black":  "#4E9A06",
+            "blue":  "#3465A4",
+            "brightBlack":  "#555753",
+            "brightBlue":  "#729FCF",
+            "brightCyan":  "#34E2E2",
+            "brightGreen":  "#8AE234",
+            "brightPurple":  "#AD7FA8",
+            "brightRed":  "#EF2929",
+            "brightWhite":  "#EEEEEE",
+            "brightYellow":  "#FCE94F",
+            "cyan":  "#06989A",
+            "foreground":  "#EEEEEE",
+            "green":  "#300A24",
+            "name":  "UbuntuLegit",
+            "purple":  "#75507B",
+            "red":  "#CC0000",
+            "white":  "#D3D7CF",
+            "yellow":  "#C4A000"
+        }
+    ]
+}
