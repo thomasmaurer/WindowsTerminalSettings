@@ -57,7 +57,6 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell ☁",
                 "source": "Windows.Terminal.Azure",
-                "colorScheme": "Dracula",
                 "useAcrylic": true
             }
         ]
