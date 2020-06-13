@@ -19,8 +19,8 @@
         "list": [
             {
                 "name": "Git Bash ⌨️",
-                "icon": "",
-                "backgroundImage": "",
+                "icon": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/git-light.png",
+                "backgroundImage": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/git.jpg",
                 "commandline": "\"%PROGRAMFILES%\\Git\\bin\\bash.exe",
                 "fontSize": 10,
                 "guid": "{00000000-0000-0000-ba54-000000000001}",
@@ -28,16 +28,16 @@
             },
             {
                 "name": "Projets ⌨️",
-                "icon": " ",
-                "backgroundImage": "",
+                "icon": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/git-light.png",
+                "backgroundImage": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/vscode.jpg",
                 "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "startingDirectory": "C:/Users/sasinnat/projets"
             },
             {
                 "name": "DevBox",
-                "icon": "",
-                "backgroundImage": "",
+                "icon": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/dev-light.png",
+                "backgroundImage": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/vscode.jpg",
                 "foreground": "#0F0",
                 "cursorColor": "#0F0",
                 "guid": "{9acb9455-ca41-5af7-950f-6bca1bc9722f}",
@@ -45,8 +45,8 @@
             },
             {
                 "name": "PowerShell",
-                "icon": "",
-                "backgroundImage": "",
+                "icon": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/powershell.png",
+                "backgroundImage": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/powershell.jpg",
                 "foreground": "#6CB8FF",
                 "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
