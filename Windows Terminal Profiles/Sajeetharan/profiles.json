@@ -1,0 +1,227 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{00000000-0000-0000-ba54-000000000001}",
+    "profiles": {
+        "defaults": {
+            "acrylicOpacity": 0.5,
+            "backgroundImageOpacity": 0.33,
+            "closeOnExit": true,
+            "colorScheme": "Pooley",
+            "cursorShape": "filledBox",
+            "fontFace": "JetBrainsMono NF",
+            "fontSize": 9,
+            "historySize": 9001,
+            "padding": "20,20,20,20",
+            "snapOnInput": true,
+            "useAcrylic": true,
+            "experimental.retroTerminalEffect": 0
+        },
+        "list": [
+            {
+                "name": "Git Bash ⌨️",
+                "icon": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/git-light.png",
+                "backgroundImage": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/git.jpg",
+                "commandline": "\"%PROGRAMFILES%\\Git\\bin\\bash.exe",
+                "fontSize": 10,
+                "guid": "{00000000-0000-0000-ba54-000000000001}",
+                "startingDirectory": "C:/Users/sasinnat/projets"
+            },
+            {
+                "name": "Projets ⌨️",
+                "icon": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/git-light.png",
+                "backgroundImage": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/vscode.jpg",
+                "commandline": "cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "startingDirectory": "C:/Users/sasinnat/projets"
+            },
+            {
+                "name": "DevBox",
+                "icon": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/dev-light.png",
+                "backgroundImage": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/vscode.jpg",
+                "foreground": "#0F0",
+                "cursorColor": "#0F0",
+                "guid": "{9acb9455-ca41-5af7-950f-6bca1bc9722f}",
+                "startingDirectory": "C:/Users/sasinnat/projets/docker-devbox-vagrant/"
+            },
+            {
+                "name": "PowerShell",
+                "icon": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/powershell.png",
+                "backgroundImage": "https://github.com/sajeetharan/WindowsTerminalSettings/blob/Sajeetharan/Windows%20Terminal%20Profiles/Sajeetharan/resources/powershell.jpg",
+                "foreground": "#6CB8FF",
+                "commandline": "powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell ☁",
+                "source": "Windows.Terminal.Azure",
+                "useAcrylic": true
+            }
+        ]
+    },
+    "alwaysShowTabs": true,
+    "initialCols": 120,
+    "initialRows": 30,
+    "keybindings": [
+        {
+            "command": "closePane",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": "copy",
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "command": "duplicateTab",
+            "keys": "ctrl+shift+d"
+        },
+        {
+            "command": "newTab",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": { "action": "newTab", "index": 0 },
+            "keys": "ctrl+shift+1"
+        },
+        {
+            "command": { "action": "newTab", "index": 1 },
+            "keys": "ctrl+shift+2"
+        },
+        {
+            "command": { "action": "newTab", "index": 2 },
+            "keys": "ctrl+shift+3"
+        },
+        {
+            "command": { "action": "newTab", "index": 3 },
+            "keys": "ctrl+shift+4"
+        },
+        {
+            "command": { "action": "newTab", "index": 4 },
+            "keys": "ctrl+shift+5"
+        },
+        {
+            "command": "nextTab",
+            "keys": "ctrl+tab"
+        },
+        {
+            "command": "openSettings",
+            "keys": "ctrl+,"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+shift+v"
+        },
+        {
+            "command": "prevTab",
+            "keys": "ctrl+shift+tab"
+        },
+        {
+            "command": "scrollDownPage",
+            "keys": "ctrl+shift+pgdn"
+        },
+        {
+            "command": "scrollUp",
+            "keys": "ctrl+shift+up"
+        },
+        {
+            "command": "scrollUpPage",
+            "keys": "ctrl+shift+pgup"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "horizontal"
+            },
+            "keys": "ctrl+shift+down"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "vertical"
+            },
+            "keys": "ctrl+shift+right"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "horizontal",
+                "splitMode": "duplicate"
+            },
+            "keys": "ctrl+alt+shift+down"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "vertical",
+                "splitMode": "duplicate"
+            },
+            "keys": "ctrl+alt+shift+right"
+        },
+        {
+            "command": "switchToTab0",
+            "keys": "ctrl+alt+1"
+        },
+        {
+            "command": "switchToTab1",
+            "keys": "ctrl+alt+2"
+        },
+        {
+            "command": "switchToTab2",
+            "keys": "ctrl+alt+3"
+        },
+        {
+            "command": "switchToTab3",
+            "keys": "ctrl+alt+4"
+        },
+        {
+            "command": "switchToTab4",
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "command": "switchToTab5",
+            "keys": "ctrl+alt+6"
+        },
+        {
+            "command": "switchToTab6",
+            "keys": "ctrl+alt+7"
+        },
+        {
+            "command": "switchToTab7",
+            "keys": "ctrl+alt+8"
+        },
+        {
+            "command": "switchToTab8",
+            "keys": "ctrl+alt+9"
+        }
+    ],
+    "requestedTheme": "system",
+    "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": true,
+    "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502",
+    "schemes": [
+        {
+            "name": "Pooley",
+            "cursorColor": "#fff",
+            "foreground": "#fff",
+            "background": "#282828",
+            "black": "#161616",
+            "red": "#ff3756",
+            "green": "#61d62e",
+            "yellow": "#e6ed1f",
+            "blue": "#12aaf8",
+            "purple": "#ea36f1",
+            "cyan": "#1bdff6",
+            "white": "#f3f3f3",
+            "brightBlack": "#bababa",
+            "brightRed": "#ffc3cd",
+            "brightGreen": "#d0f3c1",
+            "brightYellow": "#f8fabc",
+            "brightBlue": "#b8e6fd",
+            "brightPurple": "#f9c3fb",
+            "brightCyan": "#bbf5fc",
+            "brightWhite": "#fbfbfb"
+        }
+    ]
+}
